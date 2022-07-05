@@ -11,11 +11,19 @@ h1 {
     font-weight: 700px;
 }
 
+h2 {
+    font-size: 30px;
+}
 
 .lightBlue-color {
     color: #0DA3F9;
 }
 
+p {
+    line-height: 1.5;
+    font-weight: 500;
+    width: 400px;
+}
 
 .anchor-button {
 
@@ -36,6 +44,7 @@ h1 {
 
     padding-top: 150px;
     position: relative;
+    margin-bottom: 150px;
 
 }
 
@@ -61,4 +70,36 @@ h1 {
 .male img {
 
     width: 100%;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.contact-me {
+    width: 50%;
+    padding-left: 2%;
+    margin-left: 5%;
+    padding-top: 8%;
+
+}
+
+.female {
+    width: 50%;
+    padding-left: 2%;
+    padding-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.female img {
+    width: 50%;
+}
+
+
+.middle-banner {
+
+    background-image: url("images/shapes/Frame\ 57.jpg");
+    background-size: cover;
 }
