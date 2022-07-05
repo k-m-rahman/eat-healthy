@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: rgb(104, 101, 101);
+    background-color: #efeff0;
 }
 
 h1 {
@@ -15,11 +16,16 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 20px;
+}
+
 .lightBlue-color {
     color: #0DA3F9;
 }
 
-p {
+.top-banner p,
+.middle-banner p {
     line-height: 1.5;
     font-weight: 500;
     width: 400px;
@@ -72,10 +78,6 @@ p {
     width: 100%;
 }
 
-.flexible-container {
-    display: flex;
-    margin-bottom: 150px;
-}
 
 .contact-me {
     width: 50%;
@@ -102,4 +104,80 @@ p {
 
     background-image: url("images/shapes/Frame\ 57.jpg");
     background-size: cover;
+}
+
+.my-recipe {}
+
+.center-text {
+    text-align: center;
+}
+
+.center-element {
+    margin: 0 auto;
+}
+
+.center-text p {
+    line-height: 1.5;
+    font-weight: 500;
+    width: 600px;
+}
+
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
+
+.flexible-container2 {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    justify-content: center;
+
+}
+
+.half-width {
+    width: 40%;
+    padding: 2%;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 6px #d3d0d0;
+    color: black;
+    height: 80%;
+    margin: 1%;
+
+
+}
+
+.half-width img {
+    width: 100%;
+    height: 280px;
+
+}
+
+.likes {
+    color: black;
+}
+
+.likes-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 0px 15px 6px #d3d0d0;
+    margin-bottom: 70px;
+    border-radius: 15px;
+}
+
+.border {
+    text-align: center;
+    line-height: 0.5;
+    margin: 3%;
+}
+
+.border p {
+    font-size: small;
 }
