@@ -181,3 +181,15 @@ h3 {
 .border p {
     font-size: small;
 }
+
+footer {
+    text-align: center;
+    background-color: #070c0f;
+    height: 180px;
+    padding-top: 2%;
+}
+
+footer p {
+    color: whitesmoke;
+    font-size: small;
+}
